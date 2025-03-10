@@ -1,4 +1,4 @@
-
+Backend is completed with working database and Frontend will be updated soon.
 # AI News Aggregator
 
 This project is an AI-driven news aggregator that uses FastAPI, React, and MySQL (XAMPP). It fetches accurate search results using Google Search API, extracts data with Selenium, BeautifulSoup, and Newspaper3k, and summarizes news using advanced NLP models like BERT.
