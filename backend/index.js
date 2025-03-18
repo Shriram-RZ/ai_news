@@ -4,9 +4,11 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const bodyParser = require("body-parser");
 const randomUseragent = require("random-useragent");
+const cors = require("cors");
 
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 // Database Configuration
 const db = mysql.createPool({
